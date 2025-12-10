@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>HappyBidet</title>
+    <link rel="stylesheet" href="hbd.css">
+</head>
+<body>
+    <div id="overlay">
+        <div id="letterOverlay">SOUND MAX VOLUME</div>
+        <button id="startBtn">START</button>
+    </div>
+
+    <img src="assets/bg.png" class="content"  id="board" alt="board">
+
+    <div id="door" role="button">
+        <div class="door-knob"></div>
+    </div>
+
+    <div class="table">
+        <div class="table-top"></div>
+        <div class="table-leg left"></div>
+        <div class="table-leg right"></div>
+    </div>
+
+    <div class="cake">
+        <div class="velas">
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+            <div class="fuego"></div>
+        </div>
+        <div class="cobertura"></div>
+        <div class="bizcocho"></div>
+    </div>
+
+    <audio src="assets/audio.mp3" id="music"></audio>
+
+    <div id="roomOverlay" class="room-overlay hidden">
+        <button id="closeRoom" class="close-room">✕</button>
+        <img src="assets/bdsm.jpg" class="room-image" alt="otherroom">
+        <img src="assets/simeo.png" role="button" id="simeon" class="simeon">
+    </div>
+
+    <div id="darkenOverlay" class="darken-overlay hidden"></div>
+
+    <div id="videoContainer" class="video-container hidden">
+        <button id="closeVideo" class="close-video">✕</button>
+        <video id="finalVideo" src="assets/final.mp4"></video>
+    </div>
+
+    <audio id="sheets" src="assets/sheets.mp3"></audio>
+
+    <script src="hbd.js"></script>
+</body>
+</html>
