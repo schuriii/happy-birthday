@@ -55,7 +55,6 @@ if (simeon) {
     });
 }
 
-// when audio ends → show + play video
 sheets.addEventListener("ended", () => {
     videoContainer.classList.remove("hidden");
     finalVideo.currentTime = 0;
@@ -71,4 +70,5 @@ closeVideo.addEventListener("click", () => {
     // remove dark overlay
     darkenOverlay.classList.add("hidden");
 });
+
 
