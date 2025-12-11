@@ -13,7 +13,6 @@ body {
     transition: opacity 3s ease, visibility 3s ease;
 }
 
-/* Fade animation trigger */
 #overlay.fade-out {
     opacity: 0;
     visibility: hidden;
@@ -225,7 +224,7 @@ body {
 
 #door {
     position: fixed;
-    right: 30px;            /* change to left: 12px if you want it on the left */
+    right: 30px;      
     top: 33%;
     width: 310px;
     height: 600px;
@@ -250,7 +249,6 @@ body {
 }
 #door:active { transform: translateY(-2px) scale(.995); }
 
-/* ========== Room overlay ========== */
 .room-overlay {
     position: fixed;
     inset: 0;
@@ -271,7 +269,6 @@ body {
 .room-image {
     width: 100vw;
     height: 100vh;
-    object-fit: cover;     /* fills the whole screen */
 }
 
 .simeon {
@@ -288,7 +285,6 @@ body {
     filter: brightness(1.2);
 }
 
-/* Close button */
 .close-room {
     position: fixed;
     top: 15px;
@@ -315,7 +311,6 @@ body {
     display: none;
 }
 
-/* Full screen video */
 .final-video {
     position: fixed;
     inset: 0;
@@ -359,4 +354,5 @@ body {
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
+
 }
